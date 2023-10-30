@@ -1,0 +1,44 @@
+.container22{
+    color: white;
+    text-align: right;
+
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+.arrows >:first-child{
+   
+    color: gray;
+}
+
+.more-statistics{
+    font-size: 0.6rem;
+    margin-bottom: 4rem;
+    color: gray;
+}
+
+.more-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.more-info >:first-child div{
+    font-size:0.6rem;
+    text-align: right;
+    font-weight: 600;
+
+}
+.more-info >:first-child >:nth-child(2){
+    font-size: 0.5rem;
+    color: white;
+    font-weight: 600;
+    color: gray;
+}
+.more-info >:nth-child(2){
+    margin-top: -0.7rem;
+    color: red;
+    font-size:3rem;
+}

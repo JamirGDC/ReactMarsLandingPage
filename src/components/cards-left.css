@@ -1,0 +1,21 @@
+.container-left{
+    color: white;
+}
+h2{
+    font-size: 1rem;
+    font-weight: 800;
+}
+.container-left :nth-child(2){
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+.container-left :nth-child(3){
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: gray;
+}
+span{
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: gray;
+}

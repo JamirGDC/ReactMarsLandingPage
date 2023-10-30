@@ -1,0 +1,65 @@
+.main-container2{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../src/components/img/main-background.jpg");
+}
+
+.App{
+  background-image: url("../src/components/img/background.png");
+  background-size: 100% 100%;
+  height: 880px;
+  width: 1420px;
+}
+.nav {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.contenedorNavBar{
+  padding: 0.5rem 5rem;
+}
+
+.menu{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  margin-top: 3rem;
+
+}
+
+.menu >:first-child{
+  color: red;
+}
+
+.sandwich{
+  display:flex;
+  color: white;
+  font-size: 2rem;
+}
+
+/* .activo a::before {
+  background-color: red;
+  content: '\25CF';
+  transform: translateX(-50%);
+  color: red;
+} */
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.container-right{
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 5rem;
+  padding-right: 4rem;
+}

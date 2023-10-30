@@ -1,0 +1,41 @@
+.container-left2 {
+   width: 100%;
+}
+.register{
+    color: white;
+    font-size: 0.7rem;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -40%;
+    left: -46%;
+}
+
+
+.container-left2 .container-cards {
+    transform: rotate(-90deg);
+    display: flex;
+    position: relative;
+    top: 2%;
+    left: -34%;
+
+}
+
+.container-left2 .container-cards >div{
+    margin-left: 6rem;
+    
+}
+.fav-icons{
+    display: flex;
+    flex-direction: column;
+    color: rgb(167, 129, 129);
+    font-size: 0.8rem;
+    position: relative;
+    left: 3.5%;
+    top: 83%;
+}
+.fav-icons i{
+    margin-bottom: 1.5rem;
+}
+.fav-icons :last-child{
+    color: red;
+}
